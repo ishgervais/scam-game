@@ -1,7 +1,7 @@
 # Command Line Interface Game
 
 
-### How to play these games
+### How to play the game
 
 1. Clone this repository
 
