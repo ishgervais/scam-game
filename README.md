@@ -22,6 +22,12 @@ pip install -r requirements.txt
 python3 playgame.py
 ```
 
+4. Play the game
+
+```bash
+Choose tictactoe game and have fun!
+```
+
 <!-- ### Sample play of Number Guess game -->
 
 <!-- ![Guess the number](./img/playgames.png) -->
