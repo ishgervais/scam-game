@@ -25,7 +25,7 @@ python3 playgame.py
 4. Play the game
 
 ```bash
-Choose tictactoe game and have fun!
+Choose tictactoe game and have fun 😂!
 ```
 
 <!-- ### Sample play of Number Guess game -->

